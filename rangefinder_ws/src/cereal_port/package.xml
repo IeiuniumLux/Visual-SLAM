@@ -1,0 +1,19 @@
+<package>
+  <name>cereal_port</name>
+  <version>1.0.0</version>
+  <description>
+  Simple C++ serial port compability
+  </description>
+  <maintainer email="t.steinhagen@tuhh.de">Timo Steinhagen</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>

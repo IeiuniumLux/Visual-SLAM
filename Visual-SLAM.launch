@@ -1,0 +1,10 @@
+<launch>
+
+	<!-- ORB_SLAM2 Mono -->
+	<node pkg="ORB_SLAM2" type="Mono" name="Mono" output="screen" args="$(find ORB_SLAM2)../../../Vocabulary/ORBvoc.txt">
+
+		<rosparam command="load" ns="ORB_SLAM2" file="$(find ORB_SLAM2)../../../Visual-SLAM.yaml"/>
+
+	</node>
+
+</launch>

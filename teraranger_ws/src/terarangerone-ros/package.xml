@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>terarangerone</name>
+  <version>0.1.2</version>
+  <description>The TeraRanger One node package</description>
+
+  <maintainer email="luis.rodrigues@terabee.com">Luis Rodrigues</maintainer>
+  <license>GNU GPL</license>
+  <url type="website">http://wiki.ros.org/terarangerone-ros</url>
+  <url type="repository">https://github.com/Terabee/terarangerone-ros</url>
+  <url type="bugtracker">https://github.com/Terabee/terarangerone-ros/issues</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+
+
+  <export>
+
+  </export>
+</package>
