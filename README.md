@@ -4,6 +4,8 @@ Indoor vision-based SLAM (Simultaneous Localization and Mapping) using a forward
 
 It uses a downward-facing camera which can be combined with [Visual-SLAM-GCS](https://github.com/abencomo/Visual-SLAM-GCS) for detecting, picking and dropping off an object.
 
+[![Visual-inertial teach and repeat using ORB-SLAM](http://img.youtube.com/vi/1R8An5T2L9s/0.jpg)](https://www.youtube.com/watch?v=1R8An5T2L9s "Visual-inertial teach and repeat using ORB-SLAM")
+
 The package is currently setup for the following hardware:
 * [Matrix-vision BlueFOX MLC](https://www.matrix-vision.com/USB2.0-single-board-camera-mvbluefox-mlc.html) cameras
 * [TeraRanger One](http://www.teraranger.com/products/teraranger-one/) distance measurement sensors
@@ -24,7 +26,7 @@ Perform the following steps to setup Visual-SLAM on a new machine (currently onl
 
    ``` 
    cd   
-   git clone https://github.com/abencomo/Visual-SLAM.git 
+   git clone https://github.com/IeiuniumLux/Visual-SLAM.git
    ```
 
 5. Add the following line to the end of bashrc:
