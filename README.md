@@ -12,6 +12,8 @@ The package is currently setup for the following hardware:
 * [Lightware SF10](http://lightware.co.za/shop2017/drone-altimeters/26-sf10a-25-m.html) altimeters
 * [Dynamixel AX-12a](http://www.robotis.us/ax-12a/) servos
 
+[![demo](/SystemSchematic.jpg)]
+
 ## Building Visual-SLAM
 
 Perform the following steps to setup Visual-SLAM on a new machine (currently only x86 processors):
