@@ -44,7 +44,7 @@ Perform the following steps to setup Visual-SLAM on a new machine (currently onl
 
    `sudo cp ~/Visual-SLAM/mvbluefox_ws/src/bluefox2/mvIMPACT/script/51-mvbf.rules /etc/udev/rules.d/`
 
-2. [Calibrate](http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration) the camera. Create a calibration file (like [this](/mvbluefox_ws/src/bluefox2/mv_25002112.yaml)) and place it in ~/.ros/camera_info/ (create the folder if it does not exist). Rename the file as `mv_<your-camera-device-id>`.
+2. [Calibrate](http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration) the camera. Create a calibration YAML file (like [this](/mvbluefox_ws/src/bluefox2/mv_25002112.yaml)) and place it in ~/.ros/camera_info/ (create the folder if it does not exist). Rename the file as `mv_<your-camera-device-id>`.
 
 3. Add USB rules for the altimeter/distance sensor, the gripper servo and the autpilot by following the instructions [here](https://unix.stackexchange.com/a/183492). Perform the steps for one sensor at a time. During the attribute walkthrough step mentioned in the above link, pick the `idVendor`, `idProduct` and the `serial` that appears at the very top in the terminal. Further, add `MODE=="0666"` to ensure the user has access to the USB ports (you can alternatively [add the user to the dialout group](https://askubuntu.com/a/112572)). A sample rules file would look as follows:
 
