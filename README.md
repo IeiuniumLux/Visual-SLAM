@@ -121,3 +121,10 @@ You can load or save a set of waypoints by using the `LW` or the `SW` modes. The
 ## Load/Save Map
 
 You can change the `reuse_map` and the `save_map` parameters in [Visual-SLAM.yaml](Visual-SLAM.yaml) to load/save a map. If `reuse_map` is true, Visual-SLAM loads the map saved as [Slam_latest_Map.bin](Slam_latest_Map.bin). If `save_map` is true, Visual-SLAM overwrites [Slam_latest_Map.bin](Slam_latest_Map.bin) with the current map.
+
+## Contributors
+
+Sebastian Hening, Akshay Shetty, and Alfredo Benocmo
+
+## Acknowledgments
+The authors would like to thank our collaborators and colleagues in the NASA SAFE50 project team.
